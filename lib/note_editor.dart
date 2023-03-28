@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, invalid_return_type_for_catch_error, avoid_print
+// ignore_for_file: prefer_const_constructors, invalid_return_type_for_catch_error, avoid_print, camel_case_types, non_constant_identifier_names, prefer_final_fields
 
 import 'dart:math';
 
