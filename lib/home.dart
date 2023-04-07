@@ -46,8 +46,10 @@ class _home_pageState extends State<home_page> {
             ),
             Expanded(
               child: StreamBuilder<QuerySnapshot>(
-                stream:
-                    FirebaseFirestore.instance.collection("Notes").snapshots(),
+                stream: FirebaseFirestore.instance
+                    .collection("Notes")
+                    .orderBy('creation date,', descending: true)
+                    .snapshots(),
                 builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return Center(
