@@ -32,5 +32,6 @@ provider: For state management.
 fluttertoast: For displaying toast messages.
 intl: For formatting dates.
 
-Credits
+Credits:
+
 This app was created by Aditya Kumar Saha. If you have any questions or suggestions, please feel free to contact me.
