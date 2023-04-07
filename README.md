@@ -4,7 +4,7 @@ This is a simple Flutter notes app that uses Firebase for data storage and authe
 
 Getting Started
 To get started with the app, clone this repository:
-git clone https://github.com/your-username/flutter-notes-app-firebase.git
+git clone https://github.com/Adiwait4it04/NotesApp.git
 
 
 Then, create a new Firebase project and add an Android app to it using the package name com.example.flutter_notes_app. Download the google-services.json file and place it in the android/app directory.
